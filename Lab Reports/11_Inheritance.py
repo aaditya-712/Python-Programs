@@ -5,6 +5,7 @@ class Shape:
     def area(self):
         pass
 
+
 class Circle(Shape):
     def __init__(self, color, radius):
         super().__init__(color)
@@ -12,6 +13,7 @@ class Circle(Shape):
 
     def area(self):
         return 3.14 * self.radius ** 2
+
 
 class Rectangle(Shape):
     def __init__(self, color, length, breadth):
