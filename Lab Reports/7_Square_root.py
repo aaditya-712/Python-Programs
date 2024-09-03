@@ -13,7 +13,7 @@ def squareRoot(n, l):
     return root
 
 if __name__== "__main__":
-    n = 378
+    n = 144
     l = 0.00001
 
     print("Square root of", n,":", squareRoot(n, 1))
