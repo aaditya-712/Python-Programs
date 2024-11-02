@@ -1,7 +1,8 @@
-#sets
-set1 = {2,4,6,8}
-set2 = {3,6,9}
+#if statement
 
-set1.intersection(set2)
-print(set1)
-print(set2)
+is_hot = True
+
+if is_hot:
+    print("Its hot.")
+else:
+    print("Its cool.")
